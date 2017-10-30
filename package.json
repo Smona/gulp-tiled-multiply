@@ -15,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "through2": "^2.0.3"
-  }
+  },
+  "repository" :
+    { "type" : "git"
+      , "url" : "https://github.com/Smona/gulp-tiled-multiply.git"
+        }
 }
