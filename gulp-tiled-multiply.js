@@ -12,7 +12,7 @@ function multiply(buffer, multiplier) {
     var multipliedData = [];
     for (var row = 0; row < t.height; row++) {
       var rowData = t.data.slice(row * t.width, row * t.width + t.width);
-      for (var i = 0; i < multiplier; i++) {
+      for (var i = 1; i < multiplier; i++) {
         rowData = rowData.concat(rowData);
       }
       multipliedData = multipliedData.concat(rowData);
