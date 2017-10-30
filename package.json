@@ -1,6 +1,6 @@
 {
   "name": "gulp-tiled-multiply",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gulp plugin to multiply Tiled tilemaps horizontally",
   "main": "gulp-tiled-multiply.js",
   "scripts": {
@@ -16,8 +16,8 @@
   "dependencies": {
     "through2": "^2.0.3"
   },
-  "repository" :
-    { "type" : "git"
-      , "url" : "https://github.com/Smona/gulp-tiled-multiply.git"
-        }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Smona/gulp-tiled-multiply.git"
+  }
 }
